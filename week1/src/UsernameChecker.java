@@ -68,7 +68,7 @@ public class UsernameChecker {
         Scanner sc = new Scanner(System.in);
         checker.registerUser("john_doe", 1);
         checker.registerUser("admin", 2);
-        System.out.println("Enter username to check");
+        System.out.println("Enter username to check:");
         String uname = sc.next();
 
         System.out.println(checker.checkAvailability("john_doe")); // false
